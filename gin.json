@@ -1,0 +1,14 @@
+{
+    "port": 3000,
+    "app_port": 8080,
+    "build_args": "-i",
+    "paths": [
+      "./",
+      "./cmd"
+    ],
+    "bin": "myapp",
+    "build_timeout": "30s",
+    "log_prefix": "[GIN]",
+    "colors": true
+  }
+  
